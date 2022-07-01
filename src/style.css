@@ -12,129 +12,80 @@
   border: rgba(0, 0, 0, 0.514)
 }
 
-.body {
-  padding: 30%;
+.bodyFrame {
+  display: inline-flex;
+}
+
+#body {
+  padding: ;
+}
+
+#story {
+  width: 40%;
+  margin: 15px; 
+  border-radius: 5px;
 }
 
 p {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: rgb(255, 255, 255);
-  width: 45%;
-  padding: 10px;
-  margin: 25px; 
-  border-radius: 5px;
+  padding:10px;
+
 }
 
 #response {
-  text-align: auto;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
 }
 
-.btn {
-  font-family: Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-} 
- 
-.btn:hover .btn-slide-show-text1 {
-  margin-left: 65px;
-} 
- 
-.btn-bottom-stripe {
-  border: 0px;
-  background: rgb(255, 255, 255);
-  font-style: inherit;
-  font-variant: inherit;
-  font-weight: inherit;
-  font-stretch: inherit;
-  font-size: inherit;
-  font-family: inherit;
-  line-height: normal;
-  cursor: pointer;
-  display: block;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 16px 56px 22px;
-  border-radius: 6px;
-  margin: 0px 0px 16px;
-  transition: all 0.5s ease 0s;
-  overflow: hidden;
-  position: relative;
-} 
- 
-.btn-bottom-stripe::after {
-  content: "";
-  display: block;
-  height: 7px;
-  width: 100%;
-  backface-visibility: hidden;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  background-size: 7px 7px;
-} 
- 
-.btn-bottom-stripe:hover {
-  color: rgb(255, 255, 255);
-} 
- 
-.btn-bottom-stripe:hover::after {
-  background-image: repeating-linear-gradient(45deg, rgb(255, 255, 255), rgb(255, 255, 255) 1px, transparent 2px, transparent 5px);
-  animation: 12s linear 0s infinite normal forwards running stripe-slide;
-} 
- 
-.btn-bottom-stripe--orange {
-  color: rgb(254, 194, 63);
-  border: 2px solid rgb(254, 194, 63);
-} 
- 
-.btn-bottom-stripe--orange::after {
-  border-top: 2px solid rgb(254, 194, 63);
-  background-image: repeating-linear-gradient(45deg, rgb(254, 194, 63), rgb(254, 194, 63) 1px, transparent 2px, transparent 5px);
-} 
- 
-.btn-bottom-stripe--orange:hover {
-  background-color: rgb(254, 194, 63);
-} 
+.responseButtons {
+  width: 250px;
+  height: 50px;
+  margin: 30px;
+  text-align: center;
+  border-width: 0px;
+  border-radius: 30px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+#opt1{
+  background-color: rgb(204, 54, 0);
+}
+
+#opt1:hover{
+  background-color: rgb(204, 54, 0, 0.5);
+}
 
 
-.btn-bottom-stripe--red {
-  color: rgb(239, 35, 60);
-  border: 2px solid rgb(239, 35, 60);
-} 
+#opt2{
+  background-color: rgb(184, 0, 31);
+}
 
-.btn-bottom-stripe--red::after {
-  border-top: 2px solid rgb(239, 35, 60);
-  background-image: repeating-linear-gradient(45deg, rgb(239, 35, 60), rgb(239, 35, 60) 1px, transparent 2px, transparent 5px);
-} 
- 
-.btn-bottom-stripe--red:hover {
-  background-color: rgb(239, 35, 60);
-} 
+#opt2:hover{
+  background-color: rgb(184, 0, 31, 0.5);
+}
 
-.btn-bottom-stripe--blue {
-  color: rgb(58, 134, 255);
-  border: 2px solid rgb(58, 134, 255);
-} 
- 
-.btn-bottom-stripe--blue::after {
-  border-top: 2px solid rgb(58, 134, 255);
-  background-image: repeating-linear-gradient(45deg, rgb(58, 134, 255), rgb(58, 134, 255) 1px, transparent 2px, transparent 5px);
-} 
- 
-.btn-bottom-stripe--blue:hover {
-  background-color: rgb(58, 134, 255);
-} 
-.btn-bottom-stripe--green {
-  color: rgb(83, 187, 107);
-  border: 2px solid rgb(83, 187, 107);
-} 
- 
-.btn-bottom-stripe--green::after {
-  border-top: 2px solid rgb(83, 187, 107);
-  background-image: repeating-linear-gradient(45deg, rgb(83, 187, 107), rgb(83, 187, 107) 1px, transparent 2px, transparent 5px);
-} 
- 
-.btn-bottom-stripe--green:hover {
-  background-color: rgb(83, 187, 107);
-} 
- 
+#opt3{
+  background-color: rgb(113, 147, 255);
+}
+
+#opt3:hover{
+  background-color: rgb(113, 147, 255, 0.5);
+}
+
+#opt4{
+  background-color: rgb(32, 88, 255);
+}
+
+#opt4:hover{
+  background-color: rgb(32, 88, 255, 0.5);
+}
+
+
+
+
